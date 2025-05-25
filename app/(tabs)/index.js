@@ -64,13 +64,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    marginTop: 0,
   },
 
   headerText: {
-    fontSize: 28,
+    fontSize: 24,
     fontWeight: 'bold',
-    marginLeft: 10,
+    marginLeft: 20,
     marginBottom: 0,
   },
 
@@ -78,7 +77,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flex: 1,
     backgroundColor: '#fff',
-    margin: 10,
+    marginHorizontal: 20,
+    marginVertical: 10,
   },
 
   messageBox : {
@@ -92,7 +92,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flex: 1,
     backgroundColor: '#fff',
-    margin: 10,
+    marginHorizontal: 20,
+    marginVertical: 10,
   },
 
   featuredBox : {

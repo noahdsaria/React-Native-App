@@ -8,6 +8,7 @@ export default function TabLayout() {
                 name = "index"
                 options={{
                     title: 'Home',
+                    headerShown: false,
                     tabBarIcon: ({color}) => <MaterialIcons size={30} name="home" color={color}/>
                 }}
             />
@@ -15,6 +16,7 @@ export default function TabLayout() {
                 name = "MediaScreen"
                 options={{
                     title: 'Media',
+                    headerShown: false,
                     tabBarIcon: ({color}) => <MaterialIcons size={30} name="play-circle" color={color}/>
                 }}
             />
@@ -22,6 +24,7 @@ export default function TabLayout() {
                 name = "DiscoverScreen"
                 options={{
                     title: 'Discover',
+                    headerShown: false,
                     tabBarIcon: ({color}) => <MaterialIcons size={30} name="search" color={color}/>
                 }}
             />
@@ -29,6 +32,7 @@ export default function TabLayout() {
                 name = "ConnectScreen"
                 options={{
                     title: 'Connect',
+                    headerShown: false,
                     tabBarIcon: ({color}) => <MaterialIcons size={30} name="supervisor-account" color={color}/>
                 }}
             />
